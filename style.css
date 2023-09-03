@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Kanit';
+    display: flexbox;
+}
+
+header {
+    width: 100vh;
+    height: 15vh;
+    background-color: #0408fad7;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 1vw;
+    transform: translate(-50%, -50%);
+    border-radius: 2vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.nav {
+    color: white;
+}
+
+.navegacao {
+    color: rgb(255, 255, 255);
+    top: 2.5vh;
+    font-size: 3vh;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.navegacao ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacao ul li {
+    list-style: none;
+    padding: 0 4vw;
+    cursor: pointer;
+    margin-top: 5vh;
+}
+
+.navegacao ul li:hover{
+    transition: 0.9s;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    width: 60vh;
+    height: 50vh;
+    margin-left: 20vh;
+    margin-right: 4vh;
+    margin-top: 40vh;
+    margin-bottom: 20vh;
+    float: left;
+}
+
+aside {
+    width: 60vh;
+    height: 50vh;
+    margin-left: 20vh;
+    margin-right: 4vh;
+    margin-top: 60vh;
+    margin-bottom: 20vh;
+    float: left;
+}
+
+
+section {
+    width: 95vh;
+    height: 200vh;
+    margin-left: 4vh;
+    margin-right: 20vh;
+    margin-top: 40vh;
+    margin-bottom: 20vh;
+    float: right;
+}
+
+section, nav, aside {
+    font-family: 'Kanit';
+    text-align: center;
+}
+
+.titulo_jogos {
+    font-weight: bolder;
+    font-size: 3vh;
+}
+
+.card {
+    height: 20vh;
+    width: 60vh;
+    background-color: #e1e1ded7;
+    border-radius: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.info_jogo {
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    font-size: 3vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.data_horario {
+    position: relative;
+    top: 2vh;
+}
+
+.temporada {
+    position: relative;
+    bottom: 2vh;
+}
+
+.vermais {
+    font-size: 3vh;
+}
+
+.vermais a:hover {
+    color: #0408fad7;
+}
+
+.foto {
+    height: 10vh;
+}
+
+.tabelajogos {
+    width: 60vh;
+    font-size: 2.5vh;
+    border-radius: 2vh;
+}
+
+.jogos {
+    padding: 5vh;
+    border: 1px solid #c9cbbd;
+    border-radius: 2vh;
+    background-color: #eafa04c3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo_classificacao {
+    font-weight: bolder;
+    font-size: 3vh;
+}
+
+.classificacao {
+    background-color: #e9e9e9;
+    width: 60vh;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 1vh 1vh;
+}
+
+td {
+    border-bottom: 1px solid;
+}
+
+.playoffs {
+    background-color: rgba(72, 49, 219, 0.94);
+}
+
+.playin {
+    background-color: rgba(199, 201, 78, 0.883);
+}
+
+.infos {
+    background-color: black;
+    color: white;
+}
+
+.legenda_tabela {
+    height: 10vh;
+    width: 60vh;
+    background-color: #e1e1ded7;
+    display: flex;
+    flex-direction: column;
+}
+
+.playoffs_legenda, .playin_legenda {
+    display: flex;
+    align-items: center;
+    margin-left: 3.7vh;
+}
+
+.playin_legenda {
+    position: relative;
+    bottom: 4vh;
+}
+
+.quadrado_playoff {
+    height: 2vh;
+    width: 2vh;
+    background-color: rgba(72, 49, 219, 0.94);
+    margin-right: 1vh;
+}
+
+.quadrado_playin {
+    height: 2vh;
+    width: 2vh;
+    background-color: rgba(199, 201, 78, 0.883);
+    margin-right: 1vh;
+}
+
+

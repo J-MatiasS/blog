@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    background-color: #FFD700;
+}
+
+.titulo_tabela {
+    margin-top: 7vh;
+    color: #0408fad7;
+}
+
+.titulo_jogos {
+    margin-top: 25vh;
+    font-size: 4vh;
+}
+
+.titulo_jogos2 {
+    margin-top: 10vh;
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    margin-left: 7vh;
+    margin-right: 7vh;
+    justify-content: space-around;
+}
+
+.cartao {
+    height: 25vh;
+    width: 60vh;
+    background-color: #e1e1ded7;
+    border-radius: 2vh;
+    text-align: center;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+}
+
+.temporada {
+    position: relative;
+    bottom: 2vh;
+}
