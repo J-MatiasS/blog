@@ -218,4 +218,33 @@ td {
     margin-right: 1vh;
 }
 
+@media (max-width: 1280px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    body, nav, header, aside, section, .nav, .navegacao, .navegacao ul, .navegacao ul li, .quadrado_playin, .card, .classificacao, .data_horario, .foto, .info_jogo, .infos, .jogos, .legenda_tabela, .playin, .playin_legenda, .playoffs, .playoffs_legenda, .vermais, .titulo_jogos, .titulo_classificacao, .temporada, .tabelajogos {
+        max-width: 100%;
+    }
+
+    nav {
+        margin-left: 2vh;
+        margin-right: 2vh;
+        margin-top: 50vh;
+    }
+    
+    aside {
+        margin-left: 2vh;
+        margin-right: 2vh;
+        margin-top: -60vh;
+    }
+    
+    
+    section {
+        margin-left: 2vh;
+        margin-right: 2vh;
+        margin-top: -100vh;
+    }
+}
