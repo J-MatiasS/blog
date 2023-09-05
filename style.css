@@ -80,7 +80,7 @@ section {
     height: 200vh;
     margin-left: 4vh;
     margin-right: 20vh;
-    margin-top: 40vh;
+    margin-top: 38vh;
     margin-bottom: 20vh;
     float: right;
 }
@@ -247,4 +247,13 @@ td {
         margin-right: 2vh;
         margin-top: -100vh;
     }
+}
+
+.foto_noticia {
+    height: 40vh;
+}
+
+.titulo {
+    font-weight: bolder;
+    font-size: 4vh;
 }
