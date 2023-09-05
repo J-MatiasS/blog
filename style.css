@@ -232,20 +232,25 @@ td {
     nav {
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-top: 50vh;
+        margin-top: 100vh;
     }
     
     aside {
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-top: -60vh;
+        margin-top: -30vh;
     }
     
     
     section {
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-top: -100vh;
+        margin-top: -150vh;
+        margin-bottom: 40vh;
+    }
+
+    .foto_noticia, .titulo {
+        width: 100%;
     }
 }
 
