@@ -232,21 +232,21 @@ td {
     nav {
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-top: 100vh;
+        margin-top: 200vh;
     }
     
     aside {
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-top: -30vh;
+        margin-top: 100vh;
     }
     
     
     section {
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-top: -150vh;
-        margin-bottom: 40vh;
+        margin-top: -250vh;
+
     }
 
     .foto_noticia, .titulo {
@@ -258,7 +258,9 @@ td {
     height: 40vh;
 }
 
-.titulo {
+.noticia {
     font-weight: bolder;
-    font-size: 4vh;
+    font-size: 3vh;
+    color: rgba(72, 49, 219, 0.94);
+    border-bottom: 1px solid;
 }
