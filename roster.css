@@ -6,7 +6,53 @@ header {
     background-color: #FFD700;
 }
 
-.titulo {
-    margin-top: 20vh;
+.cards {
+    margin-top: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_roster {
+    height: 50vh;
+    width: 50vh;
+    background-color: #0535f5;
+    text-align: center;
+    border-radius: 2vh;
+    text-align: center;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    margin-top: 5vh;
+}
+
+h1 {
+    color: white;
+    font-size: 5vh;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.636);
+    position: relative;
+    font-size: 30vh;
+    bottom: 35vh;
+    margin-bottom: 0;
+}
+
+.fotoplayer {
+    position: relative;
+    height: 35vh;
+    bottom: 65.5vh;
+}
+
+.fotocoach {
+    position: relative;
+    height: 35vh;
+    
+}
+
+.coach {
+    font-size: 13vh;
+    bottom: 13vh;
 }
 
